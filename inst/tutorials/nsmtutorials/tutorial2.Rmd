@@ -1,10 +1,9 @@
 ---
 title: "Tut2 nsm"
+description: 'Nick's test tutorial'
 output: learnr::tutorial
 runtime: shiny_prerendered
 ---
-install.packages("remotes")
-remotes::install_github("nsm5230/PLSC309nsm")
 
 ```{r setup, include=FALSE}
 library(learnr)
@@ -30,7 +29,7 @@ sum(df$democrat)
 ```
 
 ```{r final-note-setup}
-# tmp.df <- POL306::state_party
+# tmp.df <- PLSC309::state_party
 # write.csv(tmp.df, "state_party.csv", row.names=F)
 # rm(list=ls())
 ```
