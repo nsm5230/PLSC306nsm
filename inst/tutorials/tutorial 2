@@ -1,0 +1,5 @@
+```{r df-setup}
+tmp.df <- POL306::state_party
+write.csv(tmp.df, "state_party.csv", row.names=F)
+rm(list=ls())
+```
